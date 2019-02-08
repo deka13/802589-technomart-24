@@ -369,3 +369,74 @@ a {
 	box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
 	opacity: 0.3;
 }
+
+.services {
+	background-color: #f4f7f9;
+}
+
+.services-caption {
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.services-text {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.services-list {
+	list-style: none;
+}
+
+.services-button {
+	box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+    background-color: #32425c;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-button:hover {
+	background-color: #293449;
+}
+
+.services-button:focus {
+	box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 #ffffff;
+    background-color: #ffffff;
+    color: #32425c;
+    outline: none;
+}
+
+.services-description-delivery {
+	background-image: url("../img/icon-delivery.png");
+	background-repeat: no-repeat;
+}
+
+.services-description-guarantee {
+	background-image: url("../img/icon-guarantee.png");
+	background-repeat: no-repeat;
+}
+
+.services-description-credit {
+	background-image: url("../img/icon-credit.png");
+	background-repeat: no-repeat;
+}
+
+.services-description-caption {
+	font-size: 36px;
+	line-height: 36px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.services-description-text {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
