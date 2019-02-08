@@ -257,5 +257,80 @@ a {
 	color: #ffffff;
 }
 
+.popular-goods-list {
+	font-family: "PT Sans", Arial, sans-serif;
+}
 
+.popular-goods-item {
+	border: 1px solid #eaeaea;
+}
+
+.popular-goods-name {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.11;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.old-price {
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1.06;
+	color: #a9a9a9;
+	text-decoration: line-through;
+}
+
+.current-price {
+	display: block;
+	width: 141px;
+    height: 38px;
+    background-color: #ee3643;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1.06;
+	color: #ffffff;
+}
+
+.buy-item {
+	box-shadow: inset 0px -3px 0 0 #367315;
+	background-color: #63a63e;
+	border: none;
+	font-family: Cuprum;
+	font-size: 14px;
+	line-height: 1.29;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.buy-item:hover,
+.buy-item:focus {
+	background-color: #5fbb2d;
+}
+
+.buy-item:active {
+	box-shadow: none;
+	background-color: #518534;
+}
+
+.marker-item {
+	border: 3px solid #63a63e;
+	background-color: #ffffff;
+	font-family: Cuprum;
+	font-size: 14px;
+	line-height: 1.29;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.marker-item:hover,
+.marker-item:focus {
+	border-color: #32425c;
+}
+
+.marker-item:active {
+	border-color: #32425c;
+	opacity: 0.3;
+}
 
