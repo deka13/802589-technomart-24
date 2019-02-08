@@ -471,3 +471,12 @@ a {
 	line-height: 20px;
 	color: #000000;
 }
+
+.about-company {
+	background-color: #ee3643;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
