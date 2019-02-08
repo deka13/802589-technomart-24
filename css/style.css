@@ -440,3 +440,34 @@ a {
 	line-height: 24px;
 	color: #000000;
 }
+
+.features-caption {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.man-shopping {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.delivery-features {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.transport-companies {
+	list-style: none;
+}
+
+.transport-companies-item {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+}
