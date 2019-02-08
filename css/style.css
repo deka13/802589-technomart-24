@@ -334,3 +334,38 @@ a {
 	opacity: 0.3;
 }
 
+.popular-producers-top {
+	background-color: #f9f5f0;
+}
+
+.popular-producers-caption {
+	font-size: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.all-producers-link {
+	background-color: #ee3643;
+	font-size: 14px;
+	line-height: 1.29;
+	text-align: center;
+	color: #ffffff;
+}
+
+.popular-producers-list {
+	list-style: none;
+}
+
+.popular-producers-link {
+	border: 1px solid #e5e5e5;
+}
+
+.popular-producers-link:hover,
+.popular-producers-link:focus {
+	box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-producers-link:active {
+	box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+	opacity: 0.3;
+}
