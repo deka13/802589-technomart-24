@@ -138,16 +138,105 @@ a {
 	list-style: none;
 }
 
-.header-menu-link {
-	font-size: 17px;
+.header-menu-link:hover,
+.header-menu-link:focus {
+	background-color: #1d2739;
 }
 
 .header-menu-link:active {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.materials {
+	background-color: #ffbf47;
+}
 
+.offers-caption {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #ffffff;
+}
 
+.offers-link {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.offers-link:hover,
+.offers-link:focus {
+	background-color: rgba(0, 0, 0, 0.2);;
+}
+
+.offers-link:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tools {
+	background-color: #3bbce3;
+}
+
+.technique {
+	background-color: #dc91d8;
+}
+
+.discount {
+	background-color: #8ed78f;
+}
+
+.delivery {
+	background-color: #ffc047;
+}
+
+.slider-drills {
+	background-image: url("../img/slider-1.jpg");
+	background-repeat: no-repeat;
+}
+
+.slider-perforators {
+	background-image: url("../img/slider-2.jpg");
+	background-repeat: no-repeat;
+}
+
+.slider-description {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.slider-caption {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: left;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.slider-text {
+	font-size: 18px;
+	line-height: 1.33;
+	text-align: left;
+	color: #ffffff;
+}
+
+.slider-link {
+	background-color: #ee3643;
+	font-size: 14px;
+	line-height: 1.29;
+	text-align: center;
+	color: #ffffff;
+}
+
+.slider-link:hover,
+.slider-link:focus {
+	background-color: #ca2c37;
+}
+
+.slider-link:active {
+	background-color: #ba2732;
+}
 
 
 
