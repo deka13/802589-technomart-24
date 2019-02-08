@@ -238,6 +238,24 @@ a {
 	background-color: #ba2732;
 }
 
+.popular-goods-top {
+	background-color: #f9f5f0;
+}
+
+.popular-goods-caption {
+	font-size: 30px;
+	text-align: left;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.popular-goods-link {
+	background-color: #ee3643;
+	font-size: 14px;
+	line-height: 1.29;
+	text-align: center;
+	color: #ffffff;
+}
 
 
 
