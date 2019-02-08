@@ -1,21 +1,151 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Cuprum", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.main-header {
+	background-color: #f4f7f9;
+	font-size: 17px;
 }
 
 .header-top {
-    width: 1200px;
-    height: 42px;
-    background-color: #293449;
+	background-color: #293449;
 }
 
 .header-logo {
-    width: 220px;
-    height: 47px;
-    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
-    background-color: #ee3643;
+	width: 220px;
+	height: 47px;
+	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+	background-color: #ee3643;
 }
+
+.header-logo:hover,
+.header-logo:focus {
+	background-color: #ca2c37;
+}
+
+.header-logo:active {
+	background-color: #ba2732;
+}
+
+.header-search {
+	background-color: #293449;
+	border: none;
+	color: #ffffff;
+}
+
+.header-search:hover {
+	background-color: #212a3a;
+}
+
+.header-search:focus {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.markers-link:hover,
+.basket-link:hover {
+    background-color: #212a3a;
+}
+
+.markers-link:active,
+.basket-link:active {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: #161d29;
+}
+
+.to-order {
+	width: 150px;
+	height: 42px;
+	background-color: #63a63e;
+}
+
+.to-order:hover,
+.to-order:focus {
+	background-color: #5fbb2d;
+}
+
+.to-order:active {
+	background-color: #518534;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.main-caption {
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1.44;
+	text-align: left;
+	color: #ee3643;
+}
+
+.phone {
+	font-size: 21px;
+	line-height: 1;
+	text-align: left;
+	color: #ee3643;
+}
+
+.header-adress {
+	font-size: 14px;
+	line-height: 1.71;
+	color: #32425c;
+}
+
+.user-navigation {
+	list-style: none;
+}
+
+.login-link,
+.registration-link {
+	font-size: 21px;
+	line-height: 1;
+	color: #000000;
+}
+
+.login-link:hover,
+.registration-link:hover,
+.login-link:focus,
+.registration-link:focus {
+	color: #ee3643;
+}
+
+.login-link:active,
+.registration-link:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.header-menu {
+	box-shadow: inset 0px -5px 0 0 #293449;
+    background-color: #32425c;
+}
+
+.header-menu-list {
+	list-style: none;
+}
+
+.header-menu-link {
+	font-size: 17px;
+}
+
+.header-menu-link:active {
+	color: rgba(255, 255, 255, 0.5);
+}
+
 
 
 
