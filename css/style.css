@@ -98,6 +98,7 @@ a {
 	line-height: 1;
 	text-align: left;
 	color: #ee3643;
+	border: 3px solid #ffffff;
 }
 
 .header-adress {
@@ -259,6 +260,7 @@ a {
 
 .popular-goods-list {
 	font-family: "PT Sans", Arial, sans-serif;
+	list-style: none;
 }
 
 .popular-goods-item {
