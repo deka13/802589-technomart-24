@@ -56,12 +56,14 @@
     	<h2 class="catalog-page-caption">Перфораторы</h2>
     	
     	<section class="filters">
-    		<h3 class="filter-caption">Фильтр:</h3>
+    		<h3 class="filters-caption">Фильтр:</h3>
     		<form class="filters-form" method="post" action="https://echo.htmlacademy.ru">
           <fieldset class="price-filter">
             <legend>Цена:</legend>
-            <label class="visually-hidden" for="price">Ползунок выбора цены</label>
-            <input class="price" type="range" name="price" id="price" min="0" max="30000" step="100">
+            <div class="price-range">
+              <label class="visually-hidden" for="price">Ползунок выбора цены</label>
+              <input class="price" type="range" name="price" id="price" min="0" max="30000" step="100">
+            </div>
             <output class="min-price" name="min-price" id="min-price">0</output>
             <span class="line">-</span>
             <output class="max-price" name="max-price" id="max-price">30000</output>
