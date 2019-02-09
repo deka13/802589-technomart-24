@@ -503,3 +503,128 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 }
+
+.footer-top {
+	background-color: #32425c;
+}
+
+.footer-logo {
+	width: 220px;
+	height: 68px;
+	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+	background-color: #ee3643;
+}
+
+.footer-menu {
+	list-style: none;
+}
+
+.footer-menu-link {
+	font-size: 18px;
+	line-height: 24px;
+	color: #f1f5f7;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+	text-decoration: underline;
+}
+
+.footer-menu-link:active {
+	color: rgba(241, 245, 247, 0.5);
+	text-decoration: none;
+}
+
+.footer-contacts {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f1f5f7;
+}
+
+.footer-menu-offers {
+	list-style: none;
+}
+
+.footer-offers-link {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffd180;
+}
+
+.footer-offers-link:hover,
+.footer-offers-link:focus {
+	text-decoration: underline;
+}
+
+.footer-offers-link:active {
+	color: rgba(255, 209, 128, 0.5);
+	text-decoration: none;
+}
+
+.footer-bottom {
+	background-color: #293449;
+}
+
+.copyright {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.social-buttons {
+	list-style: none;
+}
+
+.social-btn {
+	background-color: #212a3a;
+}
+
+.social-btn:hover,
+.social-btn:focus,
+.social-btn:active {
+	background-color: #ee3643;
+}
+
+.feedback {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.email {
+	color: #ffd180;
+}
+
+.email:hover,
+.email:focus {
+	text-decoration: underline;
+}
+
+.email:active {
+	text-decoration: none;
+	color: #ee3643;
+}
+
+.developer {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.developer-link {
+	color: #ffd180;
+}
+
+.developer-link:hover,
+.developer-link:focus {
+	text-decoration: underline;
+}
+
+.developer-link:active {
+	text-decoration: none;
+	color: #ee3643;
+}
+
+.modal {
+	display: none;
+}
