@@ -480,3 +480,26 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 }
+
+.contacts-caption {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.contacts-text {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+    color: #000000; 
+}
+
+.email-button {
+	background-color: #ee3643;
+	border: none;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
