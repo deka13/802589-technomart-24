@@ -21,6 +21,7 @@ a {
 .main-header {
 	background-color: #f4f7f9;
 	font-size: 17px;
+	line-height: 18px;
 }
 
 .header-top {
@@ -88,14 +89,14 @@ a {
 .main-caption {
 	font-size: 16px;
 	font-style: italic;
-	line-height: 1.44;
+	line-height: 23px;
 	text-align: left;
 	color: #ee3643;
 }
 
 .phone {
 	font-size: 21px;
-	line-height: 1;
+	line-height:21px;
 	text-align: left;
 	color: #ee3643;
 	border: 3px solid #ffffff;
@@ -103,7 +104,7 @@ a {
 
 .header-adress {
 	font-size: 14px;
-	line-height: 1.71;
+	line-height: 24px;
 	color: #32425c;
 }
 
@@ -114,7 +115,7 @@ a {
 .login-link,
 .registration-link {
 	font-size: 21px;
-	line-height: 1;
+	line-height: 21px;
 	color: #000000;
 }
 
@@ -155,14 +156,14 @@ a {
 .offers-caption {
 	font-size: 24px;
 	font-weight: bold;
-	line-height: 1.25;
+	line-height: 30px;
 	color: #ffffff;
 }
 
 .offers-link {
     background-color: rgba(0, 0, 0, 0.1);
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 18px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -209,6 +210,7 @@ a {
 
 .slider-caption {
 	font-size: 36px;
+	line-height: 36px;
 	font-weight: bold;
 	text-align: left;
 	color: #ffffff;
@@ -217,7 +219,7 @@ a {
 
 .slider-text {
 	font-size: 18px;
-	line-height: 1.33;
+	line-height: 24px;
 	text-align: left;
 	color: #ffffff;
 }
@@ -225,7 +227,7 @@ a {
 .slider-link {
 	background-color: #ee3643;
 	font-size: 14px;
-	line-height: 1.29;
+	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -245,6 +247,7 @@ a {
 
 .popular-goods-caption {
 	font-size: 30px;
+	line-height: 30px;
 	text-align: left;
 	color: #32425c;
 	text-transform: uppercase;
@@ -253,7 +256,7 @@ a {
 .popular-goods-link {
 	background-color: #ee3643;
 	font-size: 14px;
-	line-height: 1.29;
+	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -272,6 +275,7 @@ a {
 .popular-goods-name,
 .catalog-item-name {
 	font-size: 18px;
+	line-height: 20px;
 	font-weight: bold;
 	line-height: 1.11;
 	color: #000000;
@@ -281,7 +285,7 @@ a {
 .old-price {
 	font-size: 17px;
 	font-weight: bold;
-	line-height: 1.06;
+	line-height: 18px;
 	color: #a9a9a9;
 	text-decoration: line-through;
 }
@@ -293,7 +297,7 @@ a {
     background-color: #ee3643;
 	font-size: 17px;
 	font-weight: bold;
-	line-height: 1.06;
+	line-height: 18px;
 	color: #ffffff;
 }
 
@@ -303,7 +307,7 @@ a {
 	border: none;
 	font-family: Cuprum;
 	font-size: 14px;
-	line-height: 1.29;
+	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -324,7 +328,7 @@ a {
 	background-color: #ffffff;
 	font-family: Cuprum;
 	font-size: 14px;
-	line-height: 1.29;
+	line-height: 18px;
 	color: #32425c;
 	text-transform: uppercase;
 }
@@ -345,6 +349,7 @@ a {
 
 .popular-producers-caption {
 	font-size: 30px;
+	line-height: 30px;
 	color: #32425c;
 	text-transform: uppercase;
 }
@@ -352,7 +357,7 @@ a {
 .all-producers-link {
 	background-color: #ee3643;
 	font-size: 14px;
-	line-height: 1.29;
+	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -401,7 +406,7 @@ a {
     border: none;
     font-size: 21px;
     font-weight: bold;
-    line-height: 1.43;
+    line-height: 30px;
     text-align: left;
     color: #ffffff;
 }
