@@ -18,9 +18,16 @@ a {
 	margin: -1px;
 }
 
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 .main-header {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	background-color: #f4f7f9;
 	font-size: 17px;
 	line-height: 18px;
@@ -28,21 +35,25 @@ a {
 
 .header-wrapper {
 	width: 100%;
+	margin-bottom: 40px;
 	background-color: #293449;
 }
 
-.header-top {
+.header-wrapper .container {
+	position: relative;
 	display: flex;
 	min-height: 42px;
-	width: 940px;
-	margin: 0 auto;
 	background-color: #293449;
+}
+
+.technomart-logo {
+	width: 220px;
+	margin: 0;
+	padding: 0;
 }
 
 .header-logo {
 	position: absolute;
-	top:0;
-	left: 130px;
 	width: 220px;
 	height: 47px;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
@@ -65,7 +76,6 @@ a {
 .header-search {
 	width: 270px;
 	height: 42px;
-	margin-left: 145px;
 	padding-left: 50px;
 	vertical-align: middle;
 	background-color: #293449;
@@ -119,15 +129,33 @@ a {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.header-middle {
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	padding: 0;
+}
+
 .main-caption {
+	width: 196px;
+	margin-right: 70px;
 	font-size: 16px;
+	font-weight: 200;
 	font-style: italic;
 	line-height: 23px;
 	text-align: left;
 	color: #ee3643;
 }
 
+.header-contacts {
+	margin: 0;
+	padding: 0;
+}
+
 .phone {
+	width: 145px;
+	margin-bottom: 10px;
+	padding: 12px 50px 12px 75px;
 	font-size: 21px;
 	line-height:21px;
 	text-align: left;
@@ -136,6 +164,8 @@ a {
 }
 
 .header-adress {
+	margin: 0 auto;
+	padding: 0 10px;
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
