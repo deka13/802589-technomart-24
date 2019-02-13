@@ -131,7 +131,7 @@ a {
 .header-middle {
 	display: flex;
 	margin: 0 auto;
-	margin-bottom: 45px;
+	margin-bottom: 28px;
 	padding: 0;
 }
 
@@ -157,7 +157,7 @@ a {
 .phone {
 	width: 145px;
 	margin-top: 5px;
-	padding: 12px 50px 10px 70px;
+	padding: 10px 48px 9px 70px;
 	font-size: 21px;
 	line-height:21px;
 	text-align: left;
@@ -166,37 +166,43 @@ a {
 }
 
 .header-adress {
-	margin-top: -20px;
+	margin-top: -17px;
 	padding: 0 10px;
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
 }
 
-.user-navigation {
+.main-user-navigation {
 	margin: 0;
+	margin-top: 18px;
 	padding: 0;
 	list-style: none;
 }
 
-.login-item,
-.registration-item {
+.main-user-navigation li {
 	display: inline-block;
-	margin-top: -10px;
-	min-height: 45px;
-	background-color: #ffffff;
-
 }
 
-.login-link {
+.login-item {
 	margin-right: 10px;
 }
 
 .login-link,
 .registration-link {
+	margin-top: 8px;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
+	background-color: #ffffff;
+}
+
+.login-link {
+	padding: 10px 24px 11px 47px;
+}
+
+.registration-link {
+	padding: 11px 23px 11px 22px;
 }
 
 .login-link:hover,
@@ -218,6 +224,10 @@ a {
 }
 
 .header-menu-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 20px;
 	list-style: none;
 }
 
@@ -735,23 +745,23 @@ a {
 	opacity: 0.3;
 }
 
-.user-navigation {
+.catalog-user-navigation {
 	list-style: none;
 }
 
-.user-navigation a {
+.catalog-user-navigation a {
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
 	text-decoration: underline;
 }
 
-.user-navigation a:hover,
-.user-navigation a:focus {
+.catalog-user-navigation a:hover,
+.catalog-user-navigation a:focus {
 	color: #ee3643;
 }
 
-.user-navigation a:active {
+.catalog-user-navigation a:active {
 	color: rgba(50, 66, 92, 0.3);
 }
 
