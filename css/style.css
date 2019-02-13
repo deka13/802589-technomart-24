@@ -130,16 +130,16 @@ a {
 
 .header-middle {
 	display: flex;
-	align-items: center;
 	margin: 0 auto;
 	margin-bottom: 45px;
 	padding: 0;
 }
 
 .main-caption {
-	width: 196px;
-	margin-right: 70px;
-	margin-left: 55px;
+	width: 200px;
+	margin-right: 69px;
+	margin-left: 50px;
+	margin-top: 8px;
 	font-size: 16px;
 	font-weight: 200;
 	font-style: italic;
@@ -156,8 +156,8 @@ a {
 
 .phone {
 	width: 145px;
-	margin-bottom: 10px;
-	padding: 12px 50px 12px 75px;
+	margin-top: 5px;
+	padding: 12px 50px 10px 70px;
 	font-size: 21px;
 	line-height:21px;
 	text-align: left;
@@ -166,7 +166,7 @@ a {
 }
 
 .header-adress {
-	margin: 0 auto;
+	margin-top: -20px;
 	padding: 0 10px;
 	font-size: 14px;
 	line-height: 24px;
@@ -174,7 +174,22 @@ a {
 }
 
 .user-navigation {
+	margin: 0;
+	padding: 0;
 	list-style: none;
+}
+
+.login-item,
+.registration-item {
+	display: inline-block;
+	margin-top: -10px;
+	min-height: 45px;
+	background-color: #ffffff;
+
+}
+
+.login-link {
+	margin-right: 10px;
 }
 
 .login-link,
