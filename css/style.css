@@ -354,12 +354,17 @@ a {
 
 .popular-goods-list,
 .catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;
 	list-style: none;
 }
 
 .popular-goods-item,
 .catalog-item {
+	width: 220px;
 	border: 1px solid #eaeaea;
 }
 
@@ -832,7 +837,13 @@ a {
 }
 
 .breadcrumbs {
+	display: flex;
+	justify-content: flex-start;
 	list-style: none;
+}
+
+.breadcrumbs li {
+	padding: 0 40px;
 }
 
 .breadcrumbs li,
@@ -845,6 +856,7 @@ a {
 }
 
 .catalog-page-caption {
+	padding: 33px 30px;
 	background-color: #f2f6f8;
 	font-size: 30px;
 	line-height: 30px;
@@ -852,7 +864,20 @@ a {
 	text-transform: uppercase;
 }
 
+.filters-sorting-catalog {
+	display: flex;
+}
+
+.sorting-catalog {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+
 .filters {
+	display: flex;
+	flex-direction: column;
+	width: 220px;
 	font-family: "PT Sans", Arial, sans-serif;
 }
 
@@ -942,10 +967,17 @@ input[disabled] ~ label {
 }
 
 .pagination-list {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 50px;
+	margin-left: 180px;
+	margin-bottom: 60px;
 	list-style: none;
 }
 
 .pagination-list a {
+	margin-right: 10px;
+	padding: 10px 15px;
 	border: 1px solid #e5e5e5;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -968,7 +1000,13 @@ input[disabled] ~ label {
 	color: #ffffff;
 }
 
+.article-wrapper {
+	width: 100%;
+	background-color: #f4f7f9;
+}
+
 .perforators-article {
+	padding: 70px 0;
 	background-color: #f4f7f9;
 }
 
@@ -982,6 +1020,6 @@ input[disabled] ~ label {
 .article-text {
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
-	line-height: 18px;
+	line-height: 24px;
 	color: #000000;
 }
