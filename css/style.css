@@ -542,6 +542,19 @@ a {
 	color: #000000;
 }
 
+.features-contacts {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+	margin-bottom: 85px;
+}
+
+.features {
+	width: 995px;
+	margin-right: 120px;
+	padding: 0;
+}
+
 .features-caption {
 	font-size: 30px;
 	line-height: 30px;
@@ -550,6 +563,7 @@ a {
 }
 
 .man-shopping {
+	margin-bottom: 25px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
@@ -564,16 +578,21 @@ a {
 }
 
 .transport-companies {
+	margin-bottom: 37px;
 	list-style: none;
 }
 
 .transport-companies-item {
+	padding: 10px;
 	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
 }
 
 .about-company {
+	display: inline-block;
+	width: 220px;
+	padding: 13px 0;
 	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
@@ -590,13 +609,22 @@ a {
 }
 
 .contacts-text {
+	margin-bottom: 36px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
     color: #000000; 
 }
 
+.map-link img {
+	width: 300px;
+	height: 158px;
+}
+
 .email-button {
+	width: 300px;
+	margin-top: 50px;
+	padding: 14px 59px 12px 63px;
 	background-color: #ee3643;
 	border: none;
 	font-size: 14px;
