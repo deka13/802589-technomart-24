@@ -67,6 +67,10 @@ a {
 	margin: 14px 54px;
 }
 
+.search {
+	position: relative;
+}
+
 .header-search {
 	width: 270px;
 	height: 42px;
@@ -84,6 +88,26 @@ a {
 .header-search:focus {
 	background-color: #ffffff;
 	color: #000000;
+}
+
+.icon-search {
+	position: absolute;
+	top: 12px;
+	left: 17px;
+	opacity: 0.5;
+}
+
+input[type="search"]:hover ~ .icon-search {
+	opacity: 1;
+}
+
+input[type="search"]:focus ~ .icon-search {
+    z-index: 10;
+    opacity: 1;
+}
+
+input[type="search"]:focus ~ .icon-search > path {
+	fill: #ee3643;
 }
 
 input[type="search"]::-moz-placeholder {
@@ -115,12 +139,35 @@ input[type="search"]::placeholder {
     color: #ffffff; 
 }
 
-.markers-link,
-.basket-link,
-.to-order {
-	width: 150px;
-	text-align: center;
-	line-height: 42px;
+.markers-link {
+	position: relative;
+	padding: 13px 28px 13px 44px;
+}
+
+.markers-link::before {
+	position: absolute;
+	content: "";
+	left: 17px;
+	top: 12px;
+	width: 14px;
+	height: 18px;
+	background-image: url("../img/icon-bookmark.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.3;
+}
+
+.markers-link:hover::before,
+.markers-link:focus::before {
+	opacity: 1;
+}
+
+.markers-link:active::before {
+	opacity: 0.5;
+}
+
+.basket-link {
+	padding: 13px 30px 13px 50px;
 }
 
 .markers-link:hover,
@@ -137,8 +184,6 @@ input[type="search"]::placeholder {
 }
 
 .to-order {
-	width: 150px;
-	height: 42px;
 	background-color: #63a63e;
 }
 
