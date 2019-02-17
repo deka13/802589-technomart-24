@@ -694,7 +694,7 @@ input[type="search"]::placeholder {
 }
 
 .features {
-	width: 995px;
+	width: 1050px;
 	margin-right: 120px;
 	padding: 0;
 }
@@ -715,6 +715,8 @@ input[type="search"]::placeholder {
 }
 
 .delivery-features {
+	margin-bottom: 10px;
+	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
@@ -722,27 +724,40 @@ input[type="search"]::placeholder {
 }
 
 .transport-companies {
-	margin-bottom: 37px;
+	margin: 0;
+	padding: 0 27px;
+	margin-bottom: 27px;
 	list-style: none;
 }
 
 .transport-companies-item {
+	position: relative;
 	padding: 10px;
 	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
 }
 
+.transport-companies-item::before {
+	position: absolute;
+	content: "";
+	left: -26px;
+	top: 20px;
+	width: 25px;
+	height: 2px;
+	background-color: #ee3643;
+}
+
 .about-company {
 	display: inline-block;
-	width: 220px;
-	padding: 13px 0;
+	padding: 10px 41px;
 	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
+	border-radius: 3px;
 }
 
 .contacts-caption {
@@ -753,7 +768,7 @@ input[type="search"]::placeholder {
 }
 
 .contacts-text {
-	margin-bottom: 36px;
+	margin-bottom: 32px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
@@ -766,15 +781,15 @@ input[type="search"]::placeholder {
 }
 
 .email-button {
-	width: 300px;
-	margin-top: 50px;
-	padding: 14px 59px 12px 63px;
-	background-color: #ee3643;
-	border: none;
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+	margin-top: 36px;
+    padding: 11px 60px 9px 63px;
+    background-color: #ee3643;
+    border: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 3px;
 }
 
 .main-footer {
@@ -803,7 +818,8 @@ input[type="search"]::placeholder {
 .footer-logo {
 	display: inline-block;
 	width: 140px;
-	padding: 17px 40px;
+	height: 28px;
+	padding: 20px 40px;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 	background-color: #ee3643;
 }
@@ -833,6 +849,7 @@ input[type="search"]::placeholder {
 }
 
 .footer-contacts {
+	margin-left: 3px;
     font-size: 18px;
     line-height: 24px;
     color: #f1f5f7;
@@ -842,6 +859,7 @@ input[type="search"]::placeholder {
 	display: flex;
 	justify-content: space-between;
 	width: 524px;
+	margin-top: 20px;
 	list-style: none;
 }
 
@@ -876,6 +894,7 @@ input[type="search"]::placeholder {
 }
 
 .copyright {
+	margin-right: 70px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -883,11 +902,39 @@ input[type="search"]::placeholder {
 
 .social-buttons {
 	display: flex;
+	flex-wrap: wrap;
+	margin-top: 12px;
 	list-style: none;
 }
 
+.social-buttons-item {
+	margin-right: 4px;
+}
+
+.social-buttons-item:last-child {
+	margin-right: 0;
+}
+
 .social-btn {
+	display: block;
+	width: 41px;
+	height: 42px;
+	border-radius: 50%;
 	background-color: #212a3a;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.social-btn-vk {
+	background-image: url("../img/icon-vk.svg");
+}
+
+.social-btn-fb {
+	background-image: url("../img/icon-fb.svg");
+}
+
+.social-btn-in {
+	background-image: url("../img/icon-insta.svg");
 }
 
 .social-btn:hover,
@@ -897,6 +944,7 @@ input[type="search"]::placeholder {
 }
 
 .feedback {
+	margin-left: 65px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -917,6 +965,7 @@ input[type="search"]::placeholder {
 }
 
 .developer {
+	margin-right: 13px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
