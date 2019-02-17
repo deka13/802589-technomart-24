@@ -158,16 +158,33 @@ input[type="search"]::placeholder {
 }
 
 .markers-link:hover::before,
-.markers-link:focus::before {
+.markers-link:focus::before,
+.basket-link:hover::before,
+.basket-link:focus::before {
 	opacity: 1;
 }
 
-.markers-link:active::before {
+.markers-link:active::before,
+.basket-link:active::before {
 	opacity: 0.5;
 }
 
 .basket-link {
+	position: relative;
 	padding: 13px 30px 13px 50px;
+}
+
+.basket-link::before {
+	position: absolute;
+	content: "";
+	left: 18px;
+	top: 12px;
+	width: 15px;
+	height: 15px;
+	background-image: url("../img/icon-cart.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.3;
 }
 
 .markers-link:hover,
@@ -184,6 +201,7 @@ input[type="search"]::placeholder {
 }
 
 .to-order {
+	padding: 13px 21px;
 	background-color: #63a63e;
 }
 
@@ -199,6 +217,7 @@ input[type="search"]::placeholder {
 
 .header-middle {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	margin-bottom: 28px;
 	padding: 0;
@@ -224,6 +243,7 @@ input[type="search"]::placeholder {
 }
 
 .phone {
+	position: relative;
 	width: 145px;
 	margin-top: 5px;
 	padding: 10px 48px 9px 70px;
@@ -232,6 +252,18 @@ input[type="search"]::placeholder {
 	text-align: left;
 	color: #ee3643;
 	border: 3px solid #ffffff;
+}
+
+.phone::before {
+	position: absolute;
+	content: "";
+	width: 19px;
+	height: 19px;
+	top: 13px;
+	left: 15px;
+	background-image: url("../img/icon-phone.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .header-adress {
@@ -243,17 +275,23 @@ input[type="search"]::placeholder {
 }
 
 .main-user-navigation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 0;
 	margin-top: 18px;
 	padding: 0;
+	width: 280px;
 	list-style: none;
 }
 
 .main-user-navigation li {
-	display: inline-block;
+	margin: 0;
+	padding: 0;
 }
 
 .login-item {
+	position: relative;
 	margin-right: 10px;
 }
 
@@ -267,7 +305,20 @@ input[type="search"]::placeholder {
 }
 
 .login-link {
-	padding: 10px 24px 11px 47px;
+	padding: 10px 27px 11px 47px;
+}
+
+.icon-login {
+	position: absolute;
+	top: 2px;
+	left: 14px;
+	width: 20px;
+	height: 17px;
+	z-index: 10;
+}
+
+.login-link:hover ~ .icon-login > path {
+	fill: #2f405b;
 }
 
 .registration-link {
