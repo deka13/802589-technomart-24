@@ -348,22 +348,26 @@ input[type="search"]::placeholder {
     background-color: #32425c;
 }
 
-.header-menu-item {
-	margin: 0 -3px;
-	padding: 0;
-}
-
 .header-menu-list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
   	padding: 0;
-	min-height: 26px;
 	list-style: none;
 }
 
 .header-menu-link {
-	padding: 16px 33px;
+	display: block;
+    padding: 21px 31px;
+}
+
+.header-menu-item:first-child a {
+    padding-left: 49px;
+}
+
+.header-menu-item:last-child a {
+    padding-right: 53px;
 }
 
 .header-menu-link:hover,
