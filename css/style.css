@@ -1096,11 +1096,31 @@ input[type="search"]::placeholder {
 .breadcrumbs {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 .breadcrumbs li {
-	padding: 0 40px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.breadcrumbs li:not(:last-child) {
+	margin-right: 40px;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+	position: absolute;
+	content: "";
+	top: 2px;
+	right: -22px;
+	width: 8px;
+	height: 12px;
+	background-image: url("../img/icon-right-small.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .breadcrumbs li,
@@ -1123,6 +1143,7 @@ input[type="search"]::placeholder {
 
 .filters-sorting-catalog {
 	display: flex;
+	align-items: flex-start;
 }
 
 .sorting-catalog {
@@ -1135,10 +1156,19 @@ input[type="search"]::placeholder {
 	display: flex;
 	flex-direction: column;
 	width: 220px;
+	margin-right: 20px;
+	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;
 }
 
+.filters-form {
+	margin: 0;
+	padding: 0;
+}
+
 .filters-caption {
+	margin: 0;
+	padding: 10px 20px;
 	background-color: #f7f3ec;
 	font-size: 13px;
 	line-height: 18px;
@@ -1147,11 +1177,14 @@ input[type="search"]::placeholder {
 }
 
 .filters fieldset {
+	margin: 0;
+	padding: 0;
 	border: none;
 	border-bottom: 1px solid #e5e5e5;
 }
 
 .filters legend {
+	padding: 20px 0;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 30px;
