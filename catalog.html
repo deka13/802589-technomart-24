@@ -65,7 +65,7 @@
 
 	<main class="container">
 		<ul class="breadcrumbs">
-			<li><a href="index.html" aria-label="Главная страница"></a></li>
+			<li><a href="index.html" aria-label="Главная страница"><img src="img/icon-home.svg" width="15" height="12" alt="На главную"></a></li>
 			<li><a href="catalog.html">Каталог</a></li>
 			<li><a href="tools.html">Инструмент</a></li>
 			<li class="breadcrumbs-current">Перфораторы</li>
@@ -79,13 +79,17 @@
 				<form class="filters-form" method="post" action="https://echo.htmlacademy.ru">
 					<fieldset class="price-filter">
 						<legend>Цена:</legend>
-						<div class="price-range">
-							<label class="visually-hidden" for="price">Ползунок выбора цены</label>
-							<input class="price" type="range" name="price" id="price" min="0" max="30000" step="100">
+						<div class="range-filter">
+						  <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>	
 						</div>
-						<output class="min-price" name="min-price" id="min-price">0</output>
-						<span class="line">-</span>
-						<output class="max-price" name="max-price" id="max-price">30000</output>
+						<div class="price-controls">
+              <label class="min-price"><input name="min-price" type="text" value="0"></label>
+              <label class="max-price"><input name="max-price" type="text" value="30000"></label>
+            </div>
 					</fieldset>
 					<fieldset class="producers">
 						<legend>Производители:</legend>
@@ -304,9 +308,9 @@
 						Все права защищены
 					</p>
 					<ul class="social-buttons">
-						<li class="social-buttons-item"><a class="social-btn social-btn-vk" href="#" aria-label="Техномарт во Вконтакте">Вконтакте</a></li>
-						<li class="social-buttons-item"><a class="social-btn social-btn-fb" href="#" aria-label="Техномарт на Фейсбуке">Фейсбук</a></li>
-						<li class="social-buttons-item"><a class="social-btn social-btn-in" href="#" aria-label="Техномарт в Инстаграм">Инстаграм</a></li>
+						<li class="social-buttons-item"><a class="social-btn social-btn-vk" href="#" aria-label="Техномарт во Вконтакте"></a></li>
+						<li class="social-buttons-item"><a class="social-btn social-btn-fb" href="#" aria-label="Техномарт на Фейсбуке"></a></li>
+						<li class="social-buttons-item"><a class="social-btn social-btn-in" href="#" aria-label="Техномарт в Инстаграм"></a></li>
 					</ul>
 					<p class="feedback">
 						Обратная связь:<br>
