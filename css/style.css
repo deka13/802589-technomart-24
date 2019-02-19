@@ -1179,10 +1179,7 @@ input[type="search"]::placeholder {
 .filters fieldset {
 	margin: 0;
 	padding: 0;
-<<<<<<< HEAD
 	padding-bottom: 20px;
-=======
->>>>>>> e739e9880092b4e93a43ba4fe905989fe4c6dee1
 	border: none;
 	border-bottom: 1px solid #e5e5e5;
 }
