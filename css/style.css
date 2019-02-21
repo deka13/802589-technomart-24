@@ -660,6 +660,12 @@ input[type="search"]::placeholder {
 	border-color: #518534;
 }
 
+.buy-item:hover::before,
+.buy-item:focus::before,
+.buy-item:active::before {
+	opacity: 1;
+}
+
 .marker-item {
 	background-color: #ffffff;
 	color: #32425c;
