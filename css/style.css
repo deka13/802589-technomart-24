@@ -798,6 +798,7 @@ input[type="search"]::placeholder {
 
 .features-caption {
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 30px;
 	color: #000000;
 	text-transform: uppercase;
@@ -859,6 +860,7 @@ input[type="search"]::placeholder {
 
 .contacts-caption {
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 30px;
 	color: #000000;
 	text-transform: uppercase;
@@ -1606,9 +1608,9 @@ input[type="search"]::placeholder {
 .pagination-list {
 	display: flex;
 	justify-content: flex-start;
-	margin-top: 50px;
-	margin-left: 180px;
-	margin-bottom: 60px;
+	margin-top: 41px;
+	margin-left: 199px;
+	margin-bottom: 70px;
 	list-style: none;
 }
 
@@ -1616,6 +1618,7 @@ input[type="search"]::placeholder {
 	margin-right: 10px;
 	padding: 10px 15px;
 	border: 1px solid #e5e5e5;
+	border-radius: 3px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -1637,24 +1640,32 @@ input[type="search"]::placeholder {
 	color: #ffffff;
 }
 
+.pagination-item-next a {
+	padding: 10px 30px;
+}
+
 .article-wrapper {
 	width: 100%;
 	background-color: #f4f7f9;
 }
 
 .perforators-article {
-	padding: 70px 0;
+	padding: 36px 0;
 	background-color: #f4f7f9;
 }
 
 .article-caption {
+	margin-top: 27px;
+	margin-bottom: 26px;
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 30px;
 	color: #000000;
 	text-transform: uppercase;
 }
 
 .article-text {
+	margin-bottom: 32px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
