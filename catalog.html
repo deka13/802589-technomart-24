@@ -164,11 +164,21 @@
 			<div class="sorting-catalog">
 				<section class="sorting">
 					<h3 class="sorting-caption">Сортировка:</h3>
-					<a class="price-sorting" href="#">По цене</a>
-					<a class="type-sorting" href="#">По типу</a>
-					<a class="functional-sorting" href="#">По функционалу</a>
-					<a class="sorting-up" href="#">По возрастанию</a>
-					<a class="sorting-down" href="#">По убыванию</a>
+					<ul class="sorting-buttons">
+						<li class="sorting-active"><a class="price-sorting sorting-active" href="#">По цене</a></li>
+						<li><a class="type-sorting" href="#">По типу</a></li>
+						<li><a class="functional-sorting" href="#">По функционалу</a></li>
+						<li class="sorting-active">
+							<a class="sorting-up" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
+							</a>
+						</li>
+						<li>
+							<a class="sorting-down" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg>
+							</a>
+						</li>
+					</ul>
 				</section>
 
 				<section class="catalog">
