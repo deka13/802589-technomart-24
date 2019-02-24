@@ -462,12 +462,11 @@ input[type="search"]::placeholder {
 	color: #ffffff;
 }
 
-.slider-link:hover,
-.slider-link:focus {
+.red-button:hover {
 	background-color: #ca2c37;
 }
 
-.slider-link:active {
+.red-button:active {
 	background-color: #ba2732;
 }
 
@@ -601,8 +600,12 @@ input[type="search"]::placeholder {
 	width: 218px;
 	height: 88px;
 	padding: 40px 0;
-	background-color: rgba(255,255,255,0.9);
+	background-color: #ffffff;
 	z-index: 10;
+}
+
+.catalog-item:hover {
+	box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
 .catalog-item:hover .buy-or-marker {
@@ -886,10 +889,10 @@ input[type="search"]::placeholder {
 }
 
 .email-button {
+	display: block;
 	margin-top: 36px;
 	padding: 11px 60px 9px 63px;
 	background-color: #ee3643;
-	border: none;
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
@@ -927,6 +930,15 @@ input[type="search"]::placeholder {
 	padding: 20px 40px;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 	background-color: #ee3643;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+	background-color: #ca2c37;
+}
+
+.footer-logo:active {
+	background-color: #ba2732;
 }
 
 .footer-menu {
@@ -1043,7 +1055,6 @@ input[type="search"]::placeholder {
 }
 
 .social-btn:hover,
-.social-btn:focus,
 .social-btn:active {
 	background-color: #ee3643;
 }
@@ -1445,11 +1456,6 @@ input[type="search"]::placeholder {
 	fill: #b5b5b5;
 }
 
-.producers-input,
-.power-type-input {
-	display: none;
-}
-
 .checkbox-off {
 	position: absolute;
 	top: -1px;
@@ -1502,6 +1508,17 @@ input[type="search"]::placeholder {
 .producers-input:disabled ~ .producers-name,
 .power-type-input:disabled ~ .power-type-name {
 	color: rgba(0, 0, 0, 0.4);
+}
+
+.producers-input:focus ~ .checkbox-off path,
+.producers-input:focus ~ .checkbox-on path {
+	fill: #898989;
+}
+
+.producers-input:focus ~ .radio-off path,
+.power-type-input:focus ~ .radio-on path,
+.power-type-input:focus ~ .radio-on circle {
+	fill: #898989;
 }
 
 .producers-input:disabled ~ .checkbox-off path,
@@ -1597,7 +1614,9 @@ input[type="search"]::placeholder {
 }
 
 .sorting-buttons .sorting-up:hover,
-.sorting-buttons .sorting-down:hover {
+.sorting-buttons .sorting-down:hover,
+.sorting-buttons .sorting-up:focus,
+.sorting-buttons .sorting-down:focus {
 	opacity: 1;
 	border: none;
 }
@@ -1609,6 +1628,7 @@ input[type="search"]::placeholder {
 .sorting-active .sorting-up,
 .sorting-active .sorting-down {
 	opacity: 1;
+	border: none;
 }
 
 .pagination-list {
