@@ -395,6 +395,7 @@ input[type="search"]::placeholder {
 }
 
 .offers-section {
+	position: relative;
 	width: 277px;
 	min-height: 76px;
 	margin-bottom: 20px;
@@ -657,7 +658,9 @@ input[type="search"]::placeholder {
 	margin-top: 43px;
 }
 
-.catalog-item .flag {
+.catalog-item .flag,
+.popular-goods-item .flag,
+.offers-section .flag {
 	position: absolute;
 	top: -1px;
 	right: -1px;
@@ -668,7 +671,9 @@ input[type="search"]::placeholder {
 	z-index: 20;
 }
 
-.catalog-item .flag-new {
+.catalog-item .flag-new,
+.popular-goods-item .flag-new,
+.offers-section .flag-new {
 	background: url("../img/new flag.png") no-repeat 0 0;
 }
 
@@ -823,29 +828,53 @@ input[type="search"]::placeholder {
 }
 
 .popular-producers-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 25px 24px 25px 30px;
 	background-color: #f9f5f0;
 }
 
 .popular-producers-caption {
+	margin: 0;
+	padding: 0;
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 30px;
+	text-align: left;
 	color: #32425c;
 	text-transform: uppercase;
 }
 
 .all-producers-link {
+	display: block;
+	padding: 11px 69px;
 	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 3px;
 }
 
 .popular-producers-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 .popular-producers-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 218px;
+	height: 143px;
+	margin-bottom: 20px;
 	border: 1px solid #e5e5e5;
 }
 
