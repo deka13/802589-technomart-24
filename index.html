@@ -55,42 +55,48 @@
 
 		<section class="offers">
 			<h2 class="visually-hidden">Предложения Техномарта</h2>
-			<div class="materials">
+			<div class="offers-section materials">
 				<h3 class="materials-caption offers-caption">Материалы</h3>
 				<a class="materials-link offers-link" href="materials.html">На любой вкус</a>
 			</div>
-			<div class="tools">
-				<h3 class="tools-caption offers-caption">Инструменты</h3>
+			<div class="offers-section tools">
+				<h3 class="tools-caption offers-caption">Инструмент</h3>
 				<a class="tools-link offers-link" href="tools.html">На все случаи</a>
 			</div>
-			<div class="technique">
+			<div class="offers-section technique">
 				<h3 class="technique-caption offers-caption">Техника</h3>
 				<a class="technique-link offers-link" href="technique.html">Для стройки</a>
 			</div>
-			<div class="slider-drills">
-				<div class="slider-description">
-					<h3 class="slider-caption">Дрели</h3>
-					<p class="slider-text">Соседям на радость!</p>
+			<div class="slider-offers">
+				<input class="visually-hidden" type="radio" id="drills" name="toggle" checked>
+				<input class="visually-hidden" type="radio" id="perforators" name="toggle">
+				<div class="slider-offers-controls">
+					<label class="drills" for="drills"></label>
+					<label class="perforators" for="perforators"></label>
 				</div>
-				<button class="slider-button-prev" type="button">Назад</button>
-				<button class="slider-button-next" type="button">Вперед</button>
-				<a class="slider-link red-button" href="catalog.html">Открыть каталог</a>
+				<ul class="offers-list">
+					<li class="offers-list-item">
+						<h3 class="slider-caption">Дрели</h3>
+						<p class="slider-text">Соседям на радость!</p>
+						<a class="slider-link red-button" href="catalog.html">Открыть каталог</a>
+					</li>  
+					<li class="offers-list-item">
+						<h3 class="slider-caption">Перфораторы</h3>
+						<p class="slider-text">Настоящие мужские игрушки</p>
+						<a class="slider-link red-button" href="catalog.html">Открыть каталог</a>
+					</li>
+				</ul>
 			</div>
-			<div class="slider-perforators">
-				<div class="slider-description">
-					<h3 class="slider-caption">Перфораторы</h3>
-					<p class="slider-text">Настоящие мужские игрушки</p>
+			<div class="discount-delivery">
+				<div class="offers-section discount">
+					<h3 class="discount-caption offers-caption">Скидки 50%</h3>
+					<a class="discount-link offers-link" href="discount.html">На 350 товаров</a>
 				</div>
-				<a class="slider-link red-button" href="catalog.html">Открыть каталог</a>
-			</div>
-			<div class="discount">
-				<h3 class="discount-caption offers-caption">Скидки 50%</h3>
-				<a class="discount-link offers-link" href="discount.html">На 350 товаров</a>
-			</div>
-			<div class="delivery">
-				<h3 class="delivery-caption offers-caption">Доставка</h3>
-				<a class="delivery-link offers-link" href="delivery.html">Бесплатно</a>
-			</div>
+				<div class="offers-section delivery">
+					<h3 class="delivery-caption offers-caption">Доставка</h3>
+					<a class="delivery-link offers-link" href="delivery.html">Бесплатно</a>
+				</div>
+			</div>  
 		</section>
 
 		<section class="popular-goods">
