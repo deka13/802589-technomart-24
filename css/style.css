@@ -384,6 +384,7 @@ input[type="search"]::placeholder {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 33px;
 }
 
 .offers-caption {
@@ -477,7 +478,7 @@ input[type="search"]::placeholder {
 	position: relative;
 	width: 620px;
 	min-height: 265px;
-}
+}	
 
 .offers-list {
 	margin: 0;
@@ -586,11 +587,19 @@ input[type="search"]::placeholder {
 }
 
 .popular-goods-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 23px;
+	padding: 22px 24px 22px 30px;
 	background-color: #f9f5f0;
 }
 
 .popular-goods-caption {
+	margin: 0;
+	padding: 0;
 	font-size: 30px;
+	font-weight: normal;
 	line-height: 30px;
 	text-align: left;
 	color: #32425c;
@@ -598,11 +607,15 @@ input[type="search"]::placeholder {
 }
 
 .popular-goods-link {
+	display: block;
+	padding: 12px 55px;
 	background-color: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
 	text-align: center;
 	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 3px;
 }
 
 .popular-goods-list,
@@ -616,6 +629,10 @@ input[type="search"]::placeholder {
 }
 
 .catalog-item:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.popular-goods-item:nth-child(4n) {
 	margin-right: 0px;
 }
 
@@ -633,6 +650,10 @@ input[type="search"]::placeholder {
 }
 
 .catalog-item:nth-child(3n) .catalog-item-price {
+	margin-top: 43px;
+}
+
+.popular-goods-item:nth-child(4n) .popular-goods-price {
 	margin-top: 43px;
 }
 
@@ -664,7 +685,8 @@ input[type="search"]::placeholder {
 	color: #000000;
 }
 
-.catalog-item-price {
+.catalog-item-price,
+.popular-goods-price {
 	order: 2;
 	margin-bottom: 20px;
 	text-align: center;
