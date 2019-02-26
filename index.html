@@ -51,9 +51,9 @@
 		</nav>
 	</header>
 
-	<main class="container">
+	<main>
 
-		<section class="offers">
+		<section class="offers container">
 			<h2 class="visually-hidden">Предложения Техномарта</h2>
 			<div class="offers-section materials">
 				<div class="flag flag-new">новинка</div>
@@ -100,7 +100,7 @@
 			</div>  
 		</section>
 
-		<section class="popular-goods">
+		<section class="popular-goods container">
 			<div class="popular-goods-top">
 				<h2 class="popular-goods-caption">Популярные товары:</h2>
 				<a class="popular-goods-link red-button" href="popular-goods.html">Все популярные товары</a>
@@ -157,7 +157,7 @@
 			</ul>
 		</section>
 
-		<section class="popular-producers">
+		<section class="popular-producers container">
 			<div class="popular-producers-top">
 				<h2 class="popular-producers-caption">Популярные производители:</h2>
 				<a class="all-producers-link red-button" href="producers.html">Все производители</a>
@@ -174,47 +174,54 @@
 			</ul>
 		</section>
 
-		<section class="services">
-			<div class="services-wrapper">
+		<section class="services services-wrapper">
+			<div class="container">
 				<h2 class="services-caption">Сервисы</h2>
 				<p class="services-text">
 					Хороший интернет-магазин отличается от плохого не только ценами!
 					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 				</p>
-				<ul class="services-list">
-					<li class="services-item"><button class="services-button" type="button" name="services-delivery">Доставка</button></li>
-					<li class="services-item"><button class="services-button" type="button" name="services-guarantee">Гарантия</button></li>
-					<li class="services-item"><button class="services-button" type="button" name="services-credit">Кредит</button></li>
-				</ul>
-				<div class="services-description-delivery">
-					<h3 class="services-description-caption">Доставка</h3>
-					<p class="services-description-text">
-						Мы с удовольствием доставим ваш товар прямо 
-						к вашему подъезду совершенно бесплатно!
-						Ведь мы неплохо заработаем, 
-						поднимая его на ваш этаж!
-					</p>
+				<input class="visually-hidden" type="radio" id="delivery" name="button" checked>
+				<input class="visually-hidden" type="radio" id="guarantee" name="button">
+				<input class="visually-hidden" type="radio" id="credit" name="button">
+				<div class="slider-wrapper">
+					<div class="services-slider-controls">
+						<label class="services-item" for="delivery">Доставка</label>
+						<label class="services-item" for="guarantee">Гарантия</label>
+						<label class="services-item" for="credit">Кредит</label>
+					</div>
+					<ul class="services-slider">
+						<li class="services-slider-item">
+							<h3 class="services-description-caption">Доставка</h3>
+							<p class="services-description-text">
+								Мы с удовольствием доставим ваш товар прямо 
+								к вашему подъезду совершенно бесплатно!
+								Ведь мы неплохо заработаем,<br> 
+								поднимая его на ваш этаж!
+							</p>
+						</li>
+						<li class="services-slider-item">
+							<h3 class="services-description-caption">Гарантия</h3>
+							<p class="services-description-text">
+								Если купленный у нас товар поломается или заискрит, 
+								а также в случае пожара, спровоцированного его возгоранием,
+								вы всегда можете быть уверены в нашей гарантии. Мы обменяем 
+								сгоревший товар на новый. 
+								Дом уж восстановите как-нибудь сами.
+							</p>
+						</li>
+						<li class="services-slider-item">
+							<h3 class="services-description-caption">Кредит</h3>
+							<p class="services-description-text">
+								Залезть в долговую яму стало проще! 
+								Кредитные консультанты придут вам на помощь.
+							</p>
+						</li>
+					</ul>
 				</div>
-				<div class="services-description-guarantee">
-					<h3 class="services-description-caption">Гарантия</h3>
-					<p class="services-description-text">
-						Если купленный у нас товар поломается или заискрит, 
-						а также в случае пожара, спровоцированного его возгоранием,
-						вы всегда можете быть уверены в нашей гарантии. Мы обменяем 
-						сгоревший товар на новый. 
-						Дом уж восстановите как-нибудь сами.
-					</p>
-				</div>
-				<div class="services-description-credit">
-					<h3 class="services-description-caption">Кредит</h3>
-					<p class="services-description-text">
-						Залезть в долговую яму стало проще! 
-						Кредитные консультанты придут вам на помощь.
-					</p>
-				</div>
-			</div>
 		</section>
-		<div class="features-contacts">
+
+		<div class="features-contacts container">
 			<section class="features">
 				<h2 class="features-caption">Компания &laquo;Техномарт&raquo;</h2>
 				<p class="man-shopping">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
