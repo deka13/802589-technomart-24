@@ -299,26 +299,34 @@
 
 	<section class="modal modal-mail">
 		<h2 class="visually-hidden">Напишите нам</h2>
+		<div class="modal-top-wrapper"></div>
 		<form class="mail" action="https://echo.htmlacademy.ru" method="post">
-			<p> 
-				<label for="user-name">Ваше имя:</label>
-				<input class="user-name" type="text" name="user-name" id="user-name" placeholder="Имя Фамилия"></input>
-			</p>
-			<p> 
-				<label for="user-email">Ваш e-mail:</label>
-				<input class="user-email" type="email" name="user-email" id="user-email" placeholder="email@example.com"></input>
-			</p>
-			<p> 
-				<label for="user-text">Текст письма</label>
-				<textarea class="user-text" name="user-text" id="user-text" placeholder="В свободной форме"></textarea>
-			</p>
-			<button type="submit">Отправить</button> 
+			<div class="modal-container">
+				<div class="name-email">
+					<p> 
+						<label class="modal-label" for="user-name">Ваше имя:</label>
+						<input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Имя Фамилия"></input>
+					</p>
+					<p> 
+						<label class="modal-label" for="user-email">Ваш e-mail:</label>
+						<input class="modal-input" type="email" name="user-email" id="user-email" placeholder="email@example.com"></input>
+					</p>
+				</div>
+				<p> 
+					<label class="modal-label" for="user-text">Текст письма:</label>
+					<textarea class="modal-textarea" name="user-text" id="user-text" placeholder="В свободной форме"></textarea>
+				</p>
+			</div>
+			<div class="modal-bottom-wrapper">
+				<button class="modal-submit red-button" type="submit">Отправить</button> 
+			</div>
 		</form>
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>
 
 	<section class="modal modal-map">
 		<h2 class="visually-hidden">Как до нас добраться</h2>
+		<img src="img/modal-map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" width="940" height="446">
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>
 </body>
