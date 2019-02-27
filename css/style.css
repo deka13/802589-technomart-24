@@ -929,12 +929,22 @@ input[type="search"]::placeholder {
 }
 
 .services-slider-controls {
+	position: relative;
 	width: 240px;
 	margin-right: 80px;
 	padding: 62px 0;
-	background-image: url("../img/layer-118-copy.png");
+}
+
+.services-slider-controls::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 279px;
+	top: 15px;
+	right: 0;
+	background-image: url(../img/layer-118-copy.png);
 	background-repeat: no-repeat;
-	background-position: 230px 14px;
+	background-position: 0 0;
 }
 
 .services-item {
@@ -984,13 +994,25 @@ input[type="search"]::placeholder {
 .services-slider-item:nth-child(2) {
 	background-image: url("../img/icon-guarantee.png");
 	background-repeat: no-repeat;
-	background-position: 151px 25px;
+	background-position: 230px 0px;
 }
 
 .services-slider-item:nth-child(3) {
 	background-image: url("../img/icon-credit.png");
 	background-repeat: no-repeat;
-	background-position: 151px 25px;
+	background-position: 155px 0px;
+}
+
+.credit-link {
+	display: block;
+	margin-top: 30px;
+	padding: 14px 44px;
+	max-width: 107px;
+	background-color: #ff5357;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border-radius: 3px;
 }
 
 #delivery:checked ~ .slider-wrapper .services-slider .services-slider-item:nth-child(1) {
@@ -1036,13 +1058,24 @@ input[type="search"]::placeholder {
 }
 
 .services-description-text {
-	width: 275px;
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
+}
+
+.services-slider-item:first-child .services-description-text {
+	width: 275px;
+}
+
+.services-slider-item:nth-child(2) .services-description-text {
+	width: 380px;
+}
+
+.services-slider-item:last-child .services-description-text {
+	width: 280px;
 }
 
 .features-contacts {
