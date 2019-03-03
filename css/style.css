@@ -368,6 +368,10 @@ input[type="search"]::placeholder {
 	background-color: #32425c;
 }
 
+.header-menu.container {
+	padding: 0;
+}
+
 .header-menu-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
