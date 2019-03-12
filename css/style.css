@@ -261,6 +261,7 @@ input[type="search"]::placeholder {
 
 .phone {
 	position: relative;
+	display: block;
 	width: 145px;
 	margin-top: 5px;
 	padding: 10px 48px 9px 70px;
@@ -283,8 +284,8 @@ input[type="search"]::placeholder {
 	background-position: 0 0;
 }
 
-.header-adress {
-	margin-top: -17px;
+.header-address {
+	margin-top: 4px;
 	padding: 0 10px;
 	font-size: 14px;
 	line-height: 24px;
@@ -1219,6 +1220,7 @@ input[type="search"]::placeholder {
 
 .delivery-features {
 	margin-bottom: 10px;
+	width: 445px;
 	padding: 0;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -1278,6 +1280,7 @@ input[type="search"]::placeholder {
 
 .contacts-text {
 	margin-bottom: 32px;
+	width: 180px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
