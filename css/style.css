@@ -390,6 +390,7 @@ input[type="search"]::placeholder {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	        flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -2416,6 +2417,7 @@ input[type="search"]::placeholder {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
+	        flex-wrap: wrap;
 	margin-top: 41px;
 	margin-left: 199px;
 	margin-bottom: 70px;
@@ -2423,6 +2425,7 @@ input[type="search"]::placeholder {
 }
 
 .pagination-list a {
+	display: block;
 	margin-right: 10px;
 	padding: 10px 15px;
 	border: 1px solid #e5e5e5;
