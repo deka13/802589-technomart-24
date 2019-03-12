@@ -2297,6 +2297,17 @@ input[type="search"]::placeholder {
 	line-height: 18px;
 	color: #000000;
 	text-transform: uppercase;
+	cursor: pointer;
+	outline: none;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+	border-color: #bdc6ca;
+}
+
+.filters-button:active {
+	border-color: #ee3643;
 }
 
 .sorting {
