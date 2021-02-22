@@ -1,3 +1,5 @@
+View deplyment - https://deka13.github.io/802589-technomart-24/
+
 # Личный проект «Техномарт»
 
 * Студент: [Денис Клюев](https://up.htmlacademy.ru/htmlcss/24/user/802589).
